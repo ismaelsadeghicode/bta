@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="travelAgency004:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/travelAgency004_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="travelAgency004/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="travelAgency004" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="Gradle : com.digex : travelAgency004-0.1.war" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.digex'
+version '0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-webmvc:5.2.8.RELEASE'
+    implementation 'jstl:jstl:1.2'
+    implementation 'javax.servlet:jstl:1.2'
+    compileOnly 'javax:javaee-api:8.0'
+    testImplementation 'junit:junit:4.12'
+}

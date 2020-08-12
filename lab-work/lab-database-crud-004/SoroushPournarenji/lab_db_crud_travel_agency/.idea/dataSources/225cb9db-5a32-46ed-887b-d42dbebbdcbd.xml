@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@TEST">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>11.2.0.4.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APEX_030200">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="BI">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="D1">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="HR">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="IX">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="MDDATA">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MGMT_VIEW">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OE">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OLAPSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OWBSYS">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="PM">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <CreatedTimestamp>2013-10-09.21:53:43</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-08.06:44:40</ModifiedTimestamp>
+    </schema>
+    <schema id="29" parent="1" name="SCOTT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="SH">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SYSMAN">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="TEST">
+      <ObjectId>90</ObjectId>
+      <CreatedTimestamp>2020-08-13.02:33:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-13.02:33:08</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-08-13.02:33:14</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="38" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="41" parent="37" name="FLIGHT">
+      <ObjectId>88844</ObjectId>
+      <CreatedTimestamp>2020-08-13.02:33:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-13.02:33:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="37" name="PERSON">
+      <ObjectId>88843</ObjectId>
+      <CreatedTimestamp>2020-08-13.02:33:08</CreatedTimestamp>
+      <ModifiedTimestamp>2020-08-13.02:33:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="43" parent="41" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="44" parent="41" name="FLIGHT_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="45" parent="41" name="UNIT_PRICE">
+      <Position>3</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="46" parent="41" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <column id="47" parent="41" name="STATUS_F">
+      <Position>5</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="48" parent="41" name="FROM_F">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="49" parent="41" name="TO_F">
+      <Position>7</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="50" parent="41" name="UNIT_IN_STICK">
+      <Position>8</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="51" parent="42" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="52" parent="42" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="53" parent="42" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="54" parent="42" name="AGE">
+      <Position>4</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+    </column>
+    <column id="55" parent="42" name="NATIONAL_CARD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="56" parent="42" name="EMAIL">
+      <Position>6</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="57" parent="42" name="PASS">
+      <Position>7</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>

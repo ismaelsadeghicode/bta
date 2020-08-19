@@ -1,0 +1,44 @@
+#tm-bgs {
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/resources/img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+#table-bgs{
+    margin-top: 50px;
+    width: 80%;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:  5px 30px 5px 30px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    color: whitesmoke;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}

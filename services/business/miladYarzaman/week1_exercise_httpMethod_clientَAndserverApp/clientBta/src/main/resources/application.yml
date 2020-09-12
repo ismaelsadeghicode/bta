@@ -1,0 +1,4 @@
+server:
+  port: 8081
+clientBta:
+    address: http://localhost:8080/

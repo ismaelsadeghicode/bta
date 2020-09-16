@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+#uri
+airline:
+  flight: http://localhost:8080/flight

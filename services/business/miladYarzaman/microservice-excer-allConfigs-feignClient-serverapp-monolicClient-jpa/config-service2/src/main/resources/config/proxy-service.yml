@@ -1,0 +1,24 @@
+server:
+  port: 9992
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9991/eureka/
+
+zuul:
+  routes:
+    customer:
+      path: /customer/**
+      serviceId: customer-service
+
+    employee:
+        path: /employee/**
+        serviceId: employee-service
+
+    bta-client:
+        path: /bta-client/**
+        serviceId: bta-client-service
+
+    bta-server:
+        path: /bta-server/**
+        serviceId: bta-server-service

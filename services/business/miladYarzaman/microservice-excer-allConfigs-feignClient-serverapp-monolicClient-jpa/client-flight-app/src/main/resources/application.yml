@@ -1,0 +1,6 @@
+server:
+  port: 7070
+
+uri:
+  register:
+    http://localhost:8080/customer

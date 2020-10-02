@@ -1,0 +1,37 @@
+server:
+  port: 9993
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9991/eureka/
+
+spring:
+  cloude:
+    gatway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: customer-service
+          uri: lb://customer-service
+          predicates:
+            - Path=/customer/**
+          filters:
+            - RewritePath=/customer/(?<Path>.*), /$\{Path}
+
+
+        - id: bta-client-service
+          uri: lb://bta-client-service
+          predicates:
+            - Path=/bta-client/**
+          filters:
+            - RewritePath=/bta-client/(?<Path>.*), /$\{Path}
+
+
+        - id: bta-server-service
+          uri: lb://bta-server-service
+          predicates:
+            - Path=/bta-server/**
+          filters:
+            - RewritePath=/bta-server/(?<Path>.*), /$\{Path}
+

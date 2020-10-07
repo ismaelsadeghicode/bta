@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: file://D:/project/intellij/microservices/local-repo
